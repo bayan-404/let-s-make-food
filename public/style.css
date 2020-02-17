@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+}
+
+.divmain{
+
+    margin-top: 150px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    position: fixed;
+    width:100%;
+    left: 0 ;
+    right: 0  ;
+    top:0;
+    /* z-index: 9999; */
+    
+}
+
+.nav__logo{
+    width: 50px ;
+    height: 60px;
+}
+
+.nav_menu {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    color: grey;
+}
+
+.title{
+    margin: 80px 0px 0px 0px;
+    padding : 5px 0px 8px 0px;
+    color : black; 
+    font-family: fantasy;
+}
+
+
+.srchDiv {
+    margin: 0px 0px 0px 0px ;
+    padding : 10px 0px 0px 0px;
+}
+ 
+.meale_img {
+    height: 110px;
+    width: 100px;
+    padding: 10px;
+}
+.random_food{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
