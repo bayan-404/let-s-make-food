@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>let's make food</title>
   </head>
-  <body>
+  <body >
     <header class="nav">
       <img src="food-logo.png" class="nav__logo" />
       <nav class="nav_menu">
@@ -20,23 +20,21 @@
     <section>
         <h1 class = "title"> yummy food</h1>
     <form class = "srchDiv">
-        <input class = "search">
-        <button class = "find">find</button>
+        <input name = "search" class = "search" id ="search">
+        <input class = "find" type="submit" id ="search_btn" value="find">
     </form>
     </section>
-    <section >
-        <ul class = "random_food">
-            <li ><a href="#"><img class="meale_img" src = "food.jpg"></a></li>
-            <li ><a href="#"><img class="meale_img" src = "food.jpg"></a></li>
-            <li ><a href="#"><img class="meale_img" src = "food.jpg"></a></li>
-            <li ><a href="#"><img class="meale_img" src = "food.jpg"></a></li>
-            <li ><a href="#"><img class="meale_img" src = "food.jpg"></a></li>
-            <li ><a href="#"><img class="meale_img" src = "food.jpg"></a></li>
-        </ul>
+    <section id= 'categoriesSection'>
+      <div id = 'divCatigories'>
+
+      </div>
+     
     </section>
      
     </div>
    
-    <script src="Dom.js"></script>
+    <script src = "/js/apiCall.js"></script>
+    <script src = "/js/index.js"></script>
+
   </body>
 </html>
