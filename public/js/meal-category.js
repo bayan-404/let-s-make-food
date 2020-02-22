@@ -30,7 +30,6 @@ function filterCategory(item){
     
     linkCategory.appendChild(categoryImg).classList.add("meal_img");
     linkCategory.appendChild(mealName).classList.add('meal_h1');
-    div.appendChild(linkCategory);
-    
+    div.appendChild(linkCategory).classList.add('foodDiv');
     return div;
 };
